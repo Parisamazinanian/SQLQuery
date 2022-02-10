@@ -34,7 +34,7 @@ use all DDL commands in some way from your choice
 ## Creating and inserting rows to tables in students schema
 `create table students.studentinfos(first_name varchar(255), family_name varchar(255));`
 
-`insert into students.studentinfos values ('Parisa','Mazinanian'),('Ruli','Afshar'),('Safwan','Kher'),('Sara','Hal');`
+`insert into students.studentinfos values ('Parisa','Mazinanian'),('Ruli','X'),('Sa','Kh'),('Sara','Hal');`
 
 `create table students.studentid(id int, dateofregister date);`
 
@@ -54,7 +54,7 @@ use all DDL commands in some way from your choice
 
 `create table partners.partnerinfos(name varchar(255), dateOfPartnership date);`
 
-`insert into partners.partnerinfos values ('Delivery Hero','10-02-2022),('Google','10-02-2022'),('Parisa','10-02-2022'),('Y','10-02-2022');`
+`insert into partners.partnerinfos values ('DH','10-02-2022),('G','10-02-2022'),('Parisa','10-02-2022'),('Y','10-02-2022');`
 
 
 `create table partners.suggestedPartnership(name varchar(255), dateOfSuggestion date);`
@@ -67,6 +67,9 @@ use all DDL commands in some way from your choice
 
 `insert into sales.amountofsale values (1000.30,'10-02-2022),(5000,'10-02-2022'),(6000,'10-02-2022'),(550.20,'10-02-2022');`
 
+`create table sales.saleoption(X varchar(255), dateOfSale date);`
+
+`insert into sales.saleoption values ('XX','10-02-2022),('MM','10-02-2022'),('JJ','10-02-2022'),('LL','10-02-2022');`
 
 ## Dropping the table amountofsale created in the sales schema
 
