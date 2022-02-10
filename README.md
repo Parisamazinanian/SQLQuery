@@ -1,5 +1,6 @@
 # SQL Query Exercise
 
+## This is just for practicing purpose and is a class assignment for practicing SQL queries
 Create a database - **“Digital Career Institute”**  
 rename it to **dci**  
 Hint: Use ALTER DATABASE command with RENAME TO.  
